@@ -1,0 +1,518 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/fondo-web.png);
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    background-color: rgb(199, 247, 231);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: black;
+    width: 100%;
+    font-family:'Baskervville', serif;  
+}
+
+.menu li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.scrol{
+    height: 100px;
+}
+
+.menu li a:hover{
+    padding: 5px 10px;
+    background-color: aliceblue;
+    color: #212121;
+    border-radius: 15px;
+}
+
+nav ul{
+display: flex;
+width: 585px;
+justify-content: space-between;
+align-items: center;
+font-family: 'Baskervville', serif;
+}
+.nav.active{
+    background: #212121;
+}
+
+article{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    left: 750px;
+    padding-left: 750px;
+    padding-right: 15px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.info{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 600px;
+    padding: 100px;
+    position: fixed;
+    left: 50px;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+}
+.cta{
+    width: 117px;
+    height: 47px;
+    line-height: 47px;
+    background-color: rgb(199, 247, 231);
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.flexbox{
+    display: flex;
+}
+html{
+    scroll-behavior: smooth;
+}
+figure{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    left: 450px;
+    position: absolute;
+    top: 150px;   
+}
+header{
+    position: static;
+}
+h2{
+    top: 300px;
+    padding-top: 300px; 
+    font-family: 'EB Garamond', serif;
+}
+.caja1{
+    background-color: rgb(247, 223, 192);
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    left: 450px;
+    float: left;
+}
+section{
+align-items: center;
+}
+.contenedor{
+    text-align: right ;
+    float: left;
+    align-items: center;
+}
+
+.contenedor1 {
+    text-align: center;
+    padding-left: 300px;
+}
+
+.caja {
+    width: 950px;
+    height: 67px;
+    line-height: 47px;
+    background-color: rgb(199, 247, 231);
+    text-align: center;
+}
+
+.center {
+    padding-left: 300px;
+}
+
+.des {
+    text-align: center;
+    padding-right: 250px;
+}
+
+
+.caja2 {
+    background-color: rgb(199, 247, 231);
+     margin: 200px;
+     padding: 75px;
+     text-align: center;
+     width: 1190px;
+     height: 67px;
+     line-height: 42px;
+     padding-top: 10px;
+     float: left;
+     padding-left: 300px;
+}
+.cont {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.cont .cajita{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.cont .cajita:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2)
+}
+
+.cont .cajita img{
+    width: 200px;
+}
+
+.cont {
+    background-color: rgb(247, 223, 192);
+    
+}
+
+
+.caja7 {
+    width: 950px;
+    height: 67px;
+    line-height: 47px;
+    background-color: rgb(199, 247, 231);
+    text-align: center;
+}
+
+.center1 {
+    padding-left: 300px;
+}
+
+#contelItemCarrusel{
+    margin-right: 300px;
+    padding: 100px;
+    border: 5px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.itemCarrusel {
+    height: 400px;
+    position: relative;
+}
+
+.tarjetaCarrusel{
+    background-color: blanchedalmond;
+    height: 100%;
+}
+
+.flechasCarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#tarjetaCarrusel-1{
+    background-color: blanchedalmond;
+}
+
+#tarjetaCarrusel-2{
+    background-color: blanchedalmond;
+}
+
+#tarjetaCarrusel-3{
+    background-color: blanchedalmond;
+}
+
+#tarjetaCarrusel-4{
+    background-color: blanchedalmond;
+}
+
+#tarjetaCarrusel-5{
+    background-color: blanchedalmond;
+}
+
+#tarjetaCarrusel-6{
+    background-color: blanchedalmond;
+}
+
+a{
+    text-emphasis: none;
+}
+
+.promos{
+    background-color: rgb(199, 247, 231);
+    margin: 200px;
+    padding: 75px;
+    text-align: center;
+    width: 1190px;
+    height: 67px;
+    line-height: 42px;
+    padding-top: 10px;
+    float: left;
+    padding-left: 300px;
+    padding-right: 280px;
+}
+
+.cont2 {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.cont2 .cajita2{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.cont2 .cajita2:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2)
+}
+
+.cont2 .cajita2 img{
+    width: 200px;
+}
+
+.cont2 {
+    background-color: rgb(247, 223, 192);
+    
+}
+
+label,input,textarea{
+    display: block;
+}
+input,textarea{
+width: 100%;
+margin: 4px 0;
+border: none;
+border-radius: 6px;
+padding: 8px 4px;
+box-shadow: 1px 2px 3px #212121;
+}
+form{
+    width: 600px;
+    margin: 0 auto;
+}
+button{
+    background-color: rgb(8, 224, 163);
+    border: none;
+    margin-top: 16px;
+    border-radius: 6px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    padding: 4px 2px;
+    padding-top: 2px;
+}
+label{
+    margin-bottom: 8px;
+    color: rgb(32, 49, 3);
+    font-size: 18px;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(199, 247, 231);
+
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 2px 0px; 
+}
+
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: rgb(7, 156, 114);
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+
+.contenedor4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    padding-bottom: 250px;
+    margin-right: 170px;
+}
+
+.contenedor4 figure{
+    justify-content: center;
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+.contenedor4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor4 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 103, 123, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedor4 figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor4 figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.contenedor4 figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 50px;
+    transition: all 500ms ease-out;
+    margin-top: 20px;
+
+}
+
+.pro{
+    align-items: center;
+display: flex;
+justify-content: center;
+padding-right: 970px;
+padding-bottom: 150px;
+margin-right: 30px;
+justify-content: center;
+}
+
+.pro2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 970px;
+    padding-bottom: 150px;
+    margin-right: 30px;
+    justify-content: center;  
+}
+.contenedor5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    padding-bottom: 550px;
+    margin-right: 170px;
+}
+
+.contenedor5 figure{
+    justify-content: center;
+    position: relative;
+    height: 250px;
+    width: 470px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+.contenedor5 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor5 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 103, 123, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedor5 figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor5 figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.contenedor5 figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 50px;
+    transition: all 500ms ease-out;
+    margin-top: 20px;
+
+}
